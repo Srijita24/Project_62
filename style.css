@@ -1,0 +1,87 @@
+body {
+    text-align: center;
+}
+
+#home_img {
+    height: 300px;
+    width: 400px;
+    border: solid 4px;
+    border-color: red;
+}
+
+h1 {
+    font: 25px cursive;
+    color: darkblue;
+    font-weight: 600;
+}
+
+#top h {
+    font: 25px merriweather;
+    color: darkblue;
+    font-weight: 600;
+}
+
+.menu {
+    position: fixed;
+    background: red;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.items {
+    color: deepskyblue;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: cursive;
+    font-size: 20px;
+    list-style: none;
+}
+
+#Home {
+    height: 750px;
+    padding-top: 50px;
+    background-color: darkturquoise;
+    text-align: center;
+}
+
+#Grid View {
+    height: 1000px;
+    padding-top: 800px;
+    text-align: center;
+    background-color: lightcoral;
+}
+
+#Slide View {
+    height: 700px;
+    padding-top: 1000px;
+    text-align: center;
+    background-color: lightseagreen;
+}
+
+#grid_img {
+    height: 200px;
+    width: 300px;
+    border: solid 3px;
+    border-color: blue;
+    margin: 25px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.thoughts {
+    font: 30px inherit;
+    color: mediumvioletred;
+}
+
+.carousel-caption {
+    padding-right: 30px;
+    font: 40px inherit;
+    color: navy;
+    font-weight: 400;
+    text-align: center;
+}
